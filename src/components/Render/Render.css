@@ -1,0 +1,43 @@
+.divs{
+    display: flex;
+   justify-content: space-evenly ;
+   flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: thistle;
+    
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: #84c8d7;
+    border-radius: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow: scroll;
+    
+
+
+}
+::-webkit-scrollbar-button:vertical:end:increment {
+    background:
+        linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #f6f8f4;
+}
+.span{
+    font-size: 40px;
+}
+.li{
+    list-style: none;
+}
+p{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.btn{
+    background-color: #84c8d7;
+    color: white;
+}
